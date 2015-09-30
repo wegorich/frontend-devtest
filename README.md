@@ -44,3 +44,10 @@ The application should:
 - load all SCSS code through webpack pipeline
 
 
+## Test solution delivery
+
+Please do the following:
+- deliver the code either via github url or zip / tar archive
+- include the ".git" folder inside the archive if you want to deliver it in this format
+- provide us with few screenshots of multiple sections of the app
+
