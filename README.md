@@ -39,7 +39,7 @@ Choose important elements which should be covered on your own.
 
 The application should:
 - use npm packages to gain access to almost all required JS libraries (except boostrap)
-- load bootstrap JS and CSS code outside of babel + webpack pipeline
+- load Bootstrap JS and CSS code outside of babel + webpack pipeline
 - load all JS code through babel + webpack pipeline
 - load all SCSS code through webpack pipeline
 
