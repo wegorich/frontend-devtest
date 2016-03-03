@@ -27,7 +27,7 @@ The application should:
 User should be able to create a video information record with the following attributes
  - title
  - video snapshot thumbnail url
- - video snapshot url
+ - video url
  - description
 
 ### Tests
