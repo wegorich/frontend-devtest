@@ -18,7 +18,7 @@ The application should:
 - have the usual bootstrap top level menu bar which only displays the name of the user (hardcoded) on the right hand side
 - have the secondary menu bar right below the main one which would be used for
  displaying ui dropdowns with links which would allow the user to access required sections
-- allow the user to add / edit / view / remove video information record (use cookie storage or the application state store for this)
+- allow the user to add / edit / view / remove video information record (use a global application state store for this)
 - allow the user to list all added video info records with snapshot thumbnail images displayed and pagination
 - allow the user to click the snapshot thumbnail and see the actual video snapshot
 
