@@ -1,6 +1,6 @@
 # Frontend Developer Test
 
-Build a ReactJS (preferable) or AngularJS 1.x application ( written in ES6 JavaScript )
+Build a ReactJS application ( written in ES6 JavaScript )
 which would use:
 - Bootstrap 3
 - Babel compiler
