@@ -1,0 +1,20 @@
+$img-zoom: .4
+
+.t-video-item
+  box-shadow: $box-shadow
+  background: white
+  padding-right: $padding
+  border-radius: $radius
+  .text
+    max-height: 58px
+    overflow: hidden
+    display: block
+  &__img 
+    margin-right: $padding
+
+    width: 220px * $img-zoom
+    height: 303px * $img-zoom
+    border-radius: $radius 0 0  $radius  
+
+    background-size: cover
+    background-color: #ddd

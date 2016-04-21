@@ -1,0 +1,27 @@
+.t-header
+  background: #1976D2
+  border-radius: 0
+  border: 0
+  color: white
+  font-size: 1.6rem
+  margin-bottom: 0
+  .navbar-nav > li > a
+    color: white
+    &:hover, &:focus, &:active
+      color: darken(white, 20)
+
+  &__sub
+    background: #42A5F5   
+    margin-bottom: $padding
+    box-shadow: $box-shadow    
+    height: $padding * 1.5
+    color: white
+
+    &__item + &__item:before
+      content: '/'
+      display: inline-block
+      padding: 0 $padding/2
+      opacity: .5
+    &__item:last-child
+      font-weight: 600
+

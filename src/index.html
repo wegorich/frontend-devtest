@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>React Webpack Template Title</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style type="text/css">
+  	body, html{
+  		  background: #fafafa;
+		  margin: 0;
+		  font-size: 1.2rem;
+		  line-height: 1;
+		  color: #DDD;
+		  -webkit-font-smoothing: antialiased;
+		  font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif
+  	}
+    .loader__container{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .loader {
+      color: #ddd;
+      font-family: Consolas, Menlo, Monaco, monospace;
+      font-weight: bold;
+      font-size: 10vh;
+      opacity: 0.8;
+    }
+    .loader span {
+      display: inline-block;
+      -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+              animation: pulse 0.4s alternate infinite ease-in-out;
+    }
+    .loader span:nth-child(odd) {
+      -webkit-animation-delay: 0.4s;
+              animation-delay: 0.4s;
+    }
+    @-webkit-keyframes pulse {
+      to {
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+        opacity: 0.5;
+      }
+    }
+    @keyframes pulse {
+      to {
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+        opacity: 0.5;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="app">
+  	<div class="loader__container">
+  		<div class="loader">
+        <span>{</span><span>}</span>
+      </div>
+  	</div>
+  </div>
+
+  <script>__REACT_DEVTOOLS_GLOBAL_HOOK__ = parent.__REACT_DEVTOOLS_GLOBAL_HOOK__</script>
+  <script type="text/javascript" src="./assets/app.js"></script>
+</body>
+</html>
